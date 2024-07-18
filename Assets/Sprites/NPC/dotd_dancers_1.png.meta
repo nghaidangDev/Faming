@@ -157,7 +157,7 @@ TextureImporter:
         width: 27
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,7 +178,7 @@ TextureImporter:
         width: 27
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,7 +199,7 @@ TextureImporter:
         width: 27
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,7 +220,7 @@ TextureImporter:
         width: 27
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,6 +228,90 @@ TextureImporter:
       bones: []
       spriteID: a05137fe868c41a40ad70ebe58cfb3cd
       internalID: 449680863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_dancers_1_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 252
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b3c71caa54f7f48bf1e2277afe90dd
+      internalID: -863829595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_dancers_1_5
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 217
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ef36ec35800fc42890a181d331037b
+      internalID: 743463704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_dancers_1_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 180
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa9b890f96ceba48a069187b09ce45e
+      internalID: 1842484420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dotd_dancers_1_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 144
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7717d51f23af3f04c96977cd0fd68548
+      internalID: 2041031509
       vertices: []
       indices: 
       edges: []
@@ -247,6 +331,10 @@ TextureImporter:
       dotd_dancers_1_1: -104354077
       dotd_dancers_1_2: -1865040797
       dotd_dancers_1_3: 449680863
+      dotd_dancers_1_4: -863829595
+      dotd_dancers_1_5: 743463704
+      dotd_dancers_1_6: 1842484420
+      dotd_dancers_1_7: 2041031509
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
