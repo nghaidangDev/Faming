@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private static PlayerMovement instance;
+
     [SerializeField] private float speed;
     private float horizontal;
     private float vertical;
@@ -11,6 +13,19 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator anim;
     private Rigidbody2D rb;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
