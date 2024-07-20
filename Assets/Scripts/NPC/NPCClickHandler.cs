@@ -15,8 +15,8 @@ public class NPCClickHandler : MonoBehaviour
     public bool playerIsClose;
 
     //Panel màn chơi
-    public GameObject levelPanel;
-    public GameObject loadLevelPanel;
+    //public GameObject levelPanel;
+    //public GameObject loadLevelPanel;
 
     private void Update()
     {
@@ -72,18 +72,7 @@ public class NPCClickHandler : MonoBehaviour
         else
         {
             zeroText();
-            levelPanel.SetActive(true);
         }
-    }
-
-    public void Start_LoadLevel()
-    {
-        loadLevelPanel.SetActive(true);
-    }
-
-    public void Exit_LoadLevel()
-    {
-        levelPanel.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
