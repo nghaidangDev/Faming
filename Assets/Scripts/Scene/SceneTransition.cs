@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,10 +17,18 @@ public class SceneTransition : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision != null)
         {
-            levelPanel.SetActive(false);
+            if (collision.CompareTag("Player"))
+            {
+                levelPanel.SetActive(false);
+            }
         }
+        else
+        {
+            Debug.Log("Collider đã bị hủy hoặc chưa được gán.");
+        }
+
     }
 
     public void Exit_Load_Level_01()
