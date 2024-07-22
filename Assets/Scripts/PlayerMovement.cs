@@ -1,9 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     [SerializeField] private float speed;
     private float horizontal;
     private float vertical;
@@ -45,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("run", (horizontal != 0 || vertical != 0));
     }
 
-    private void PlayerDashAbility()
+    public void PlayerDashAbility()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
